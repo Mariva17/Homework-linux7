@@ -1,0 +1,16 @@
+script:
+
+#!/bin/bash
+for i in {1..10}
+do
+touch $i$(date +"%d%m%y")
+done
+
+
+
+
+
+In crontab:
+
+15 * * * * /opt/45_46_morning/margarita/taskRita.sh
+
